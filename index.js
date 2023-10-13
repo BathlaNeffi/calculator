@@ -6,7 +6,7 @@ var operand2=null;
 var operator=null
 
 
-for(var i=0; i<=btn.length ; i++){
+for(var i=0; i<btn.length ; i++){
     btn[i].addEventListener('click', claculation)
 }
 
