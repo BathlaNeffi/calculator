@@ -1,0 +1,86 @@
+#calculatorBody{
+
+    height: 70vh;
+    width: 60vw;
+   margin: 15vh 0  0 18vw;
+    /* position: relative;
+    top: 15vh;
+    left: 18vw; */
+    background-color: rgb(235, 232, 232);
+}
+
+#title{
+    height: 15%;
+    width: 90%;
+     border:1px black solid;
+     background-color: black;
+     position: relative;
+     top: 3%;
+     margin-bottom: 25px;
+     margin-left: auto;
+     margin-right: auto;
+
+
+}
+#title h1{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bolder; */
+    letter-spacing: 1px;
+    font-size:200%;
+    color:rgb(235, 232, 232);
+     ;
+}
+
+
+#display{
+
+    height: 20%;
+    width: 90%;
+     background-color: rgb(245,245,245);
+     margin-bottom: 25px;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 10px;
+
+}
+
+#btnBody{
+    height: 50%;
+    width: 90%;
+    /* border: 1px black solid; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button{
+    display: inline-block;
+    width: 24.5%;
+    height: 18%;
+    /* border: 1px black solid; */
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+}
+.button span{
+    font-size: 1.5rem;
+}
+#zero{
+    width: 49.5%;
+}
+.red{
+    background-color: rgb(193,68,68) !important;
+    color: white;
+}
+.green{
+    background-color: rgb(29, 83, 29);
+    color: white;
+}
+
