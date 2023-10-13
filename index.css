@@ -69,6 +69,14 @@
 
 
 }
+.button:hover{
+    background-color:rgb(255,200,119) ;
+}
+
+.button:active{
+    background-color:rgb(252, 184, 84) ;
+
+}
 .button span{
     font-size: 1.5rem;
 }
@@ -78,6 +86,15 @@
 .red{
     background-color: rgb(193,68,68) !important;
     color: white;
+}
+.red:hover{
+    background-color:rgb(255,200,119) !important;
+
+}
+
+.button:active{
+    background-color:rgb(252, 184, 84) !important;
+
 }
 .green{
     background-color: rgb(29, 83, 29);
