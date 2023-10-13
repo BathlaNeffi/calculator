@@ -46,6 +46,9 @@
      border-radius: 10px;
      display: flex;
      flex-direction: column-reverse;
+     overflow: scroll;
+    
+     
 
 
 }
@@ -55,6 +58,7 @@
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
+    ;
 }
 
 #btnBody{
