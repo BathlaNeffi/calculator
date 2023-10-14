@@ -54,11 +54,11 @@
 }
 
 #display span{
-    align-self: flex-end;
+    /* align-self: flex-end; */
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
-    ;
+    text-align: right;
 }
 
 #btnBody{
